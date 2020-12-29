@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkatePark</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="./title.css">
+
+    <style>
+        @font-face {
+        src : url("../font/SKATRG__.ttf");
+        font-family: "skate";
+        }
+        
+        .title_img{
+            margin-top : 10px;
+            
+            text-align : center;
+        }
+
+        .menu{
+            margin-top : 90px;
+            font-family : skate;
+            text-align : center;
+            font-size : 20pt;
+           
+        }
+        #video{
+            margin-right : 50px;
+        }
+        #shop{
+            margin-right : 50px;
+        }
+        body{
+            background-color : black;
+            color : white;
+        }
+
+        a:link{color : white; text-decoration : none;}
+        a:visited{color : white;text-decoration : none;}
+        a:hover{color : gray;}
+
+        .title_img{
+            width : 300vw;
+            transition : transform 0.5s;
+        }
+        .img{
+            width : 100vw;
+            float : left;
+        }
+        
+        .buttons{
+            margin-top : 15px;
+            display : flex;
+            align-items: center;
+            justify-content : center;
+        }
+    </style>
+</head>
+<body>
+    <div class=title>
+        <h1>SKATEPARK</h1>
+    </div>
+    <div style = "overflow : hidden">
+        <div class=title_img>
+            <div class=img>
+                <img src = "./img/baekgol_2.jpg">
+            </div>
+
+            <div class=img>
+                <img src = "https://skatepark.org/wp-content/uploads/2020/02/Canoga_Park_CA_kids.jpg" width = "600px" height = "357px">
+            </div>
+                
+            <div class=img>
+                <img src = "./img/roof_korean.jpg" width = "600px" height = "357px">
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class ="button1"></button>
+        <button class ="button2"></button>
+        <button class ="button3"></button>
+    </div>
+    <nav class = menu>
+        <a id = video href="./video.html">VIDEO</a>
+        
+        <a id = shop>SHOP</a>
+        
+        <a id = magazine>MAGAZINE</a>
+     
+    </nav>
+
+
+
+    <script>
+       
+        document.querySelector('.button2') .addEventListener('click'
+        , function(){
+            document.querySelector('.title_img').style.transform = 'translate(-100vw)'
+        })
+
+        document.querySelector('.button3') .addEventListener('click'
+        , function(){
+            document.querySelector('.title_img').style.transform = 'translate(-200vw)'
+        })
+
+        document.querySelector('.button1') .addEventListener('click'
+        , function(){
+            document.querySelector('.title_img').style.transform = 'translate(0vw)'
+        })
+
+
+    </script>
+</body>
+</html>
