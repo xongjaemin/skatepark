@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/shop_detail.css">
+    <script src="../js/menu.js"></script>
+
+    <style>
+        .all{
+            color : gray;
+        }
+    </style>
+</head>
+<body>
+    <div class = "title">
+        <a href ="../index.html"><img id="logo" src="../img/logo.png"></a>
+    </div>
+
+    <div class="wrapper">
+
+        <ul class="navi">
+            <li class="video"><a href="../video.html">VIDEO</a></li>
+            
+            <li class="shop" onClick="slide('sub1');">SHOP</li>
+            <div id="sub1" class="submenu">
+                <div><a href="../shop_page/shop_all.html">- All</a></div>
+                <div><a href="../shop_page/shop_top.html">- Top</a></div>
+                <div><a href="../shop_page/shop_bottom.html">- Bottom</a></div>
+            </div>
+
+            <li class="magazine"><a href="../mag_page/magazine.html">MAGAZINE</a></li>
+        </ul>
+
+    
+        <div class="wrapper_4">
+
+            <img src="../img/hood_1_detail.jpg" width="650" height="650">
+
+            <div class="wrapper_5">
+
+            <p class="name">Thrasher Flame Logo Hood (Navy)</p>
+            <br>
+            
+            <p class="sub">
+                Heavyweight, 90% cotton 10% polyester hooded sweatshirt. Features the classic Thrasher flame logo.
+            </p>
+
+            <p class="price">
+                $59.95
+            </p>
+
+            <p class="size">
+                SIZE <br>
+
+                <select>
+                    <option selected>S</option>
+                    <option>M</option>
+                </select>
+            </p>
+
+            <p class="qty">
+                QTY <br>
+
+                <input class="input" type="text" value="1">
+            </p>
+
+            <p class="button">
+                <input type="button" value="ADD TO CART" onclick="alert('ADDED')">
+            </p>
+
+            </div>
+
+        </div>
+
+        
+ 
+    </div>
+    
+</body>
+</html>

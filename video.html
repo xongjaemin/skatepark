@@ -5,119 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkatePark-video</title>
 
-    <style>
-        @font-face {
-            src : url("./font/SKATRG__.TTF");
-            font-family: "skate";
-        }
+    <link rel="stylesheet" type="text/css" href="./css/video.css">
 
-        body{
-            background-color : black;
-            color : white;
-        }
-
-        .title{
-            color : white;
-            font-family : skate;
-            text-align : center;
-            margin-top :10pt;
-            margin-bottom : 5pt;
-        }
-
-        .navi{
-            margin-left : 30px;
-            padding-right : 60px;
-            font-family : skate;
-            font-size : 15pt;
-            border-right : 0.05em;
-            border-right-style : solid;
-        }
-
-        .video,.shop,.magazine{
-            margin-bottom : 30pt;
-        }
-
-        .hr1{
-            margin-bottom : 30pt;
-        }
-
-        ul{
-            padding-right : 40pt;
-            list-style: none;
-        }
-
-        .wrapper{
-            display : flex;
-        }
-
-        .dis{
-            font-family :Helvetica, sans-serif;
-            font-size : 13pt;
-            margin-top : 10px;
-            margin-bottom : 30px;
-        }
-        .dis2{
-            font-family :Helvetica, sans-serif;
-            font-size : 10pt;
-            margin-top : 10px;
-            margin-bottom : 30px;
-        }
-        .video_1,.video_2,.video_3{
-            margin-left : 60px;
-            
-            margin-top : 10px;
-        }
-
-        a:link{color : white; text-decoration : none;}
-        a:visited{color : white;text-decoration : none;}
-        a:hover{color : gray;}
-    </style>
+    <script src="js/menu.js"></script>
 </head>
 <body>
     <div class = "title">
-        <h1><a href="./index.html">SKATEPARK</a></h1>
+        <a href ="index.html"><img id="logo" src="img/logo.png"></a>
     </div>
 
-    <hr class="hr1">
+    
 
     <div class="wrapper">
 
         <ul class="navi">
             <li class="video">VIDEO</li>
             
-            <li class="shop">SHOP</li>
+            
+            <li class="shop" onClick="slide('sub1');"><a>SHOP</a></li>
+            <div id="sub1" class="submenu">
+                <div><a href="./shop_page/shop_all.html">- All</a></div>
+                <div><a href="./shop_page/shop_top.html">- Top</a></div>
+                <div><a href="./shop_page/shop_bottom.html">- Bottom</a></div>
+            </div>
 
-            <li class="magazine">MAGAZINE</li>
+            <li class="magazine"><a href="./mag_page/magazine.html">MAGAZINE</a></li>
         </ul>
 
         <div class="video_1">
+            <a href="./video_page/Miles_Silvas_'One_Stop'.html">
             <img src="./img/thumbnail_1.png" width="480" height = "270" style="display : block;">
             <div class="dis">Miles Silvas 'One Stop'</div>
+            </a>
 
+            <a href="./video_page/CANDYLAND.html">
             <img src="./img/thumbnail_2.png" width="480" height = "270" style="display : block;">
             <div class="dis">CANDYLAND</div>
+            </a>
         </div>
 
         <div class="video_2">
+            <a href="./video_page/the_splits.html">
             <img src="./img/thumbnail_3.png" width="240" height = "135" style="display : block;">
             <div class="dis2">The Splits</div>
+            </a>
 
+            <a href="./video_page/raw_run.html">
             <img src="./img/thumbnail_4.png" width="240" height = "135" style="display : block;">
             <div class="dis2">Raw Run || 70 mph in Switzerland</div>
+            </a>
 
+            <a href="./video_page/nagoya.html">
             <img src="./img/thumbnail_5.png" width="240" height = "135" style="display : block;">
             <div class="dis2">NAGOYA JAPAN SKATE LIFE</div>
+            </a>
         </div>
 
         <div class="video_3">
+            <a href="./video_page/japan_street.html">
             <img src="./img/thumbnail_6.png" width="240" height = "135" style="display : block;">
             <div class="dis2">CITY LIFE SKATING IN JAPAN</div>
+            </a>
 
+            <a href="./video_page/season_greeting.html">
             <img src="./img/thumbnail_7.png" width="240" height = "135" style="display : block;">
             <div class="dis2">Season’s Greetings</div>
+            </a>
 
+            <a href="./video_page/baker_3.html">
             <img src="./img/thumbnail_8.png" width="240" height = "135" style="display : block;">
             <div class="dis2">Baker 3 Full Video</div>
+            </a>
         </div>
     
     </div>

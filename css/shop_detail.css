@@ -1,0 +1,150 @@
+@font-face {
+    src : url("../font/SKATRG__.TTF");
+    font-family: "skate";
+}
+
+body{
+    margin : 0;
+    padding : 0;
+}
+
+.title{
+    width : 98.9vw;
+    height : 10vh;
+    background-color : black;
+    color : white;
+    font-family : skate;
+    text-align : center;
+    
+    margin-bottom : 50px;
+    
+}
+
+#logo{
+    margin-top : 22px;
+    width : 200px;
+    height : 28.7px;
+}
+
+
+.navi{
+    margin-left : 30px;
+    padding-right : 60px;
+    font-family : skate;
+    font-size : 15pt;
+    border-right : 0.05em;
+    border-right-style : solid;
+    padding-bottom : 30%;
+}
+
+.video,.magazine{
+    margin-bottom : 30pt;
+}
+.magazine{
+    margin-top : 30pt;
+}
+
+.hr1{
+    margin-bottom : 30pt;
+}
+
+ul{
+    padding-right : 40pt;
+    list-style: none;
+}
+
+.wrapper{
+    display : flex;
+}
+
+.dis{
+    font-family :Helvetica, sans-serif;
+    font-size : 13pt;
+    margin-top : 10px;
+    margin-bottom : 30px;
+    font-weight : bold;
+}
+.dis2{
+    font-family :Helvetica, sans-serif;
+    font-weight : bold;
+    font-size : 10pt;
+    margin-top : 10px;
+    margin-bottom : 30px;
+}
+.video_1,.video_2,.video_3{
+    margin-left : 60px;
+    
+    margin-top : 10px;
+}
+
+a:link{color : black; text-decoration : none;}
+a:visited{color : black;text-decoration : none;}
+a:hover{color : gray;}
+
+.submenu{
+    display : none;
+    font-size : 10pt;
+}
+
+.wrapper_2{
+    margin-left : 350px;
+    width : 30vw;
+    display : flex;
+    justify-content : space-around;
+    font-family : Helvetica, sans-serif;
+    margin-bottom : 10px;
+}
+
+
+
+
+.wrapper_4{
+    display : flex;
+    margin-left : 60px;
+    margin-top : 40px;
+    
+}
+
+.wrapper_5{
+    margin-left : 20px;
+}
+
+.name{
+    font-family : Helvetica, sans-serif;
+    font-size : 30pt;
+    font-weight: bold;
+}
+
+.sub{
+    font-family : Helvetica, sans-serif;
+    font-size : 15pt;
+}
+
+.price{
+    font-family : Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.size{
+    margin-top:50px;
+    font-family : Helvetica, sans-serif;
+    font-size : 20pt;
+    font-weight: bold;
+}
+
+.qty{
+    margin-top:50px;
+    font-family : Helvetica, sans-serif;
+    font-size : 20pt;
+    font-weight: bold;
+}
+
+.input{
+    width : 10pt;
+}
+
+.button{
+    margin-top : 50px;
+    font-family : Helvetica, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+
+
+@font-face {
+    src : url("../font/SKATRG__.TTF");
+    font-family: "skate";
+    }
+
+    .title{
+        text-align : center;
+        font-family : skate;
+        margin-top : 50px;
+        font-size : 20pt;
+    }
+    
+    .title_img{
+        margin-top : 10px;
+        
+        text-align : center;
+        
+    }
+
+    .menu{
+        margin-top : 90px;
+        font-family : skate;
+        text-align : center;
+        font-size : 20pt;
+       
+    }
+    #video{
+        margin-right : 50px;
+    }
+    #shop{
+        margin-right : 50px;
+    }
+    body{
+        background-color : black;
+        color : white;
+    }
+
+    a:link{color : white; text-decoration : none;}
+    a:visited{color : white;text-decoration : none;}
+    a:hover{color : gray;}
+
+    .title_img{
+        width : 300vw;
+        transition : transform 0.5s;
+    }
+    .img{
+        width : 100vw;
+        float : left;
+    }
+    
+    .buttons{
+        margin-top : 15px;
+        display : flex;
+        align-items: center;
+        justify-content : center;
+    }
+
+ 
